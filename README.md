@@ -73,16 +73,18 @@ python src/evaluate.py        # évalue le modèle sauvegardé sur le test set
 
 ## Structure du projet
 
+```
 wdbc-classifier-pytorch/
 ├── data/
-│ ├── raw/ # données brutes téléchargées (ignoré par git)
-│ └── processed/ # CSV nettoyé (ignoré par git)
-├── models/ # modèle entraîné (ignoré par git)
+│   ├── raw/            # données brutes téléchargées (ignoré par git)
+│   └── processed/      # CSV nettoyé (ignoré par git)
+├── models/              # modèle entraîné (ignoré par git)
 ├── src/
-│ ├── preprocessing.py
-│ ├── dataset.py
-│ ├── model.py
-│ ├── train.py
-│ └── evaluate.py
+│   ├── preprocessing.py
+│   ├── dataset.py
+│   ├── model.py
+│   ├── train.py
+│   └── evaluate.py
 ├── requirements.txt
 └── README.md
+```
